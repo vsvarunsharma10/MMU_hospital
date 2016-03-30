@@ -19,14 +19,9 @@ while True:
     currentTag  = fg.crop(bbox)
     currentarraypixel = np.array(currentTag)
 
-    print tagarraypixel
-    print currentarraypixel
-    currentTag.show()
-    current.show()
     if np.sum(tagarraypixel - currentarraypixel) == 0:
         target = current.crop(testArea)          #another bounding box which crops the image part needed(the test result on top of the stack)
         
-    else:
-        pass
+    
 
 
