@@ -3,7 +3,7 @@ import ImageGrab
 import os
 import numpy as np
 
-bbox = (714,149,721,156)
+bbox = (714,149,721,156)                                                #bounding box of 'y' in summary to represent a tag
 sample  = "C:/Users/vssharma/Pictures/Screenshots/Screenshot (30).png" 
 bg = Image.open(sample)
 sampletag = bg.crop(bbox)
